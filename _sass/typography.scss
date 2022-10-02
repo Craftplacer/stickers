@@ -1,0 +1,41 @@
+@mixin title-large {
+    line-height: 28px;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+@mixin title-small {
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+@mixin display-small {
+    line-height: 44px;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+@mixin headline-medium {
+    line-height: 36px;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+@mixin body-medium {
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+@mixin body-small {
+    line-height: 16px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+@mixin label-large {
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 500;
+}

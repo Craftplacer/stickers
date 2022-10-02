@@ -1,0 +1,51 @@
+- name: LINE stickers
+  stickers:
+  - name: Yurudara-chan & Yurudara-kun
+    links:
+      telegram: https://t.me/addstickers/LINE_Yurudara_chan
+      line: https://store.line.me/stickershop/product/8888763
+    img: yurudara-chan-and-yurudara-kun.webp
+
+  - name: Yurudara-chan & Yurudara-kun 2
+    links:
+      telegram: https://t.me/addstickers/LINE_Yurudara_chan_2
+      line: https://store.line.me/stickershop/product/9902222
+    img: yurudara-chan-and-yurudara-kun-2.webp
+
+  - name: Cat ear girl Necoco 1
+    links:
+      telegram: https://t.me/addstickers/LINE_Cat_ear_girl_Necoco
+      line: https://store.line.me/stickershop/product/1196141
+    img: cat-ear-girl-necoco-1.webp
+
+  - name: Cat ear girl Necoco 2
+    links:
+      telegram: https://t.me/addstickers/LINE_Cat_ear_girl_Necoco
+      line: https://store.line.me/stickershop/product/1198172
+    img: cat-ear-girl-necoco-2.webp
+
+  - name: Cat ear girl Necoco 3
+    links:
+      telegram: https://t.me/addstickers/LINE_Cat_ear_girl_Necoco
+      line: https://store.line.me/stickershop/product/1198918
+    img: cat-ear-girl-necoco-3.webp
+
+  - name: Cat ear girl Necoco 4
+    links:
+      telegram: https://t.me/addstickers/LINE_Cat_ear_girl_Necoco_2
+      line: https://store.line.me/stickershop/product/1204072
+    img: cat-ear-girl-necoco-4.webp
+
+- name: Hugs & cuddles
+  stickers:
+  - name: Hugs
+    links:
+      telegram: https://t.me/addstickers/JurreHugs
+    img: jurre-hugs.webp
+
+- name: Yuri
+  stickers:
+  - name: Bob's Yuri Pack
+    links:
+      telegram: https://t.me/addstickers/BobsYuriPack
+    img: bobs-yuri-pack.webp

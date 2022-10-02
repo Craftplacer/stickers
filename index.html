@@ -1,0 +1,30 @@
+---
+---
+
+<p>I did not rip them myself, but I thought making a list would be cute.</p>
+
+{% for category in site.data.stickers %}
+{% if category.name %}<h2>{{category.name}}</h2>{% endif %}
+<div class="sticker-grid">
+    {% for pack in category.stickers %}
+    <div class="card--filled">
+        <img alt="" src="previews/{{pack.img}}" class="card__image" loading="lazy">
+        <div class="card__content">
+            <div style="flex-grow:1">
+                <span class="card__title">{{pack.name}}</span>
+                <!-- <span class="card__subtitle">by ... &bull; x stickers</span> -->
+            </div>
+            <hr>
+            <div class="card__actions">
+                {% if pack.links.telegram %}
+                <a href="{{pack.links.telegram}}" class="button--text">Telegram</a>
+                {% endif %}
+                {% if pack.links.line %}
+                <a href="{{pack.links.line}}" class="button--text">LINE</a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endfor %}
